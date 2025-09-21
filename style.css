@@ -1,0 +1,179 @@
+
+
+
+
+/*---------- CONFIG -------------------------------------------------- */
+
+#cuerpo {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fae76b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #f74627;
+}
+
+#cuerpo2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    background-color: #fae76b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cuerpo2 p {
+    margin: 0px 80px 0px 80px;
+    color: #206138;
+}
+#cuerpo2 a {
+    color: #faf4e8;
+    text-decoration: none;
+}
+/* ---------- CARTEL ------------------------------------------------- */ 
+
+
+/* config ------------------------------------*/
+
+#cartel {
+    background-color: #faf4e8;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px 40px 15px;
+    border: 13px solid #fcc512;
+    margin: 20px 0 0 0;
+}
+
+#cartel button {
+    background-color:#f74627;
+    border: 0px;
+    border-radius: 20px;
+    width: 180px;
+    height: 30px;
+    color: #faf4e8;
+    font-size: medium;
+    font-weight: 700;
+    margin: 15px 0 0 0;
+}
+#cartel button:hover {
+    background-color: #f5684f;
+}
+
+/* Input -------------------------------------*/
+
+#sumagia {
+    height: 30px;
+    width: 300px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: #7aff97;
+    font-size: large;
+    text-align: center;
+}
+
+#sumagia::placeholder {
+    color: #206138;
+}
+
+#sumagia:focus {
+    outline: none;
+    border: solid 3px #61cc78;
+}
+
+
+/* ---------MUESTRAS ----------------*/
+
+
+#muestra {
+    display: block;
+    color: #15461f;
+}
+
+#muestra2 {
+    display: none;
+    margin: 20px 0px 0px 0px;
+    font-size: large;
+}
+
+#preguntamentora {
+    display: none;
+    padding: 25px 15px 40px 15px;
+    border-radius: 7px;
+    background-color: #faf4e8;
+    text-align: center;
+}
+
+#pregunta {
+    color: #206138;
+}
+
+.boton {
+    background-color: #206138;
+    border: 0px;
+    border-radius: 15px;
+    margin: 0px 5px 0px 5px;
+    font-size: large;
+    color: #61cc78;
+    height: 50px;
+    width: 100px;
+}
+
+.boton a {
+    color: #61cc78;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #15461f;
+}
+
+
+#scratch-container {
+    display: none;
+}
+
+/* --------- VICTORIA -------------------- */
+
+#felicitaciones {
+    background-color: #faf4e8;
+    border-radius: 26px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10 35px 0px 35px;
+    border: 20px solid #fcc512;
+}
+
+#felicitaciones h1 {
+    font-weight: 1000;
+    margin: 0 0 0 0;
+}
+#felicitaciones h3 {
+    margin: 0 0 0 60px;
+}
+
+#felicitaciones p {
+    margin: 0 30px 0 30px;
+    color: #15461f;
+}
+
+#img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#img-container img {
+    width: 500px;
+    height: 500px;
+    margin: 0 0 0 0;
+}
